@@ -1,0 +1,37 @@
+body {
+  background-color: #f8f8f8;
+  font-family: 'Merriweather', serif;
+  color: black;
+  line-height: 30px;
+  text-align: center;
+}
+
+h1, h2 {
+  color: black;
+  line-height: 30px;
+  font-size: 20px;
+}
+
+.card {
+  background-color: white;
+  border: 5px solid #D8891B;
+  padding: 10px;
+  border-radius: 5px;
+  margin: 10px;
+}
+
+img {
+  height: 300px;
+  width: 300px;
+  object-fit: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
