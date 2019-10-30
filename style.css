@@ -12,6 +12,10 @@ h1, h2 {
   font-size: 20px;
 }
 
+.container {
+  background-color: #E2E2E2;
+}
+
 .card {
   background-color: white;
   border: 5px solid #D8891B;
@@ -24,6 +28,9 @@ img {
   height: 300px;
   width: 300px;
   object-fit: cover;
+  background-color: #fff;
+  padding: 10px;
+
 }
 
 a {
@@ -61,4 +68,23 @@ ul {
 li {
     display: inline-block;
     margin: 10px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
 }
